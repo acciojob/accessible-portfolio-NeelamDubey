@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header role="heading" aria-level="1">
+        <h1>My Portfolio</h1>
+    </header>
 
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2 role="heading" aria-level="2">About Me</h2>
+        <p>
+            Hello, I am a passionate web developer with a keen interest in creating accessible websites and applications.
+            I love working on challenging projects that make a positive impact on people's lives.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2 role="heading" aria-level="2">Projects</h2>
+        <ul role="list">
+            <li role="listitem">
+                <img src="project1.jpg" alt="Project 1" role="img">
+                <p>Project 1 description goes here...</p>
+            </li>
+            <li role="listitem">
+                <img src="project2.jpg" alt="Project 2" role="img">
+                <p>Project 2 description goes here...</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 role="heading" aria-level="2">Contact</h2>
+        <p>
+            Feel free to reach out to me at email@example.com or through the contact form below.
+        </p>
+    </section>
 </body>
-
 </html>
